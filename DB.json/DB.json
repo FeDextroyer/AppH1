@@ -1,0 +1,100 @@
+{
+    "Pessoa":[
+      {
+        "PessoaId": "",
+        "Nome" : "",
+        "Documento": "",
+        "Email" : "",
+        "senha": "",
+        "DataCadastro": "",
+        "TipoPessoaId": "",
+        "RA": "",
+        "Materia": ""
+      }
+    ],
+    "TipoPessoa":[
+      {
+        "TipoPessoaId": "",
+        "Descricao" : "",
+        "FlAtivo" : "",
+        "DataCadastro": ""
+      }
+    ],
+    "AreaAtuacao":[
+      {
+        "AreaID": "",
+        "Descricao": ""
+      }
+    ],
+    "AreaPessoa":[
+      {
+        "AreaID": "",
+        "PessoaId": ""
+      }
+    ],
+    "SituacaoSolicitacao":[
+      {
+        "SituacaoId": "",
+        "Descricao": "",
+        "FlAtivo": ""
+      }
+    ],
+    "ControleSolicitacao":[
+      {
+        "SolicitacaoId": "",
+        "IdAlunoSolicitacao": "",
+        "IdProfessorSolicitacao": "",
+        "SituacaoId": "",
+        "DataSolicitacao": "",
+        "NomeProjeto": "",
+        "Descricao": "",
+        "DataAprovacao": "",
+        "DataReprovacao": "",
+        "Justificativa": "",
+        "IdPessoaRejeitou": ""
+      }
+    ],
+    "SituacaoProjeto":[
+      {
+        "ProjetoId": "",
+        "Descricao": ""
+      }
+    ],
+    "EtapaTarefa":[
+      {
+        "EtapaId": "",
+        "Descricao": "",
+        "DataCadastro": "",
+        "FlAtivo": ""
+      }
+    ],
+    "TarefaProjeto":[
+      {
+        "IdTarefa": "",
+        "IdProjeto": "",
+        "Titulo": "",
+        "EtapaId": "",
+        "Descricao": "",
+        "DataInicio": "",
+        "DataFinalPrevista": "",
+        "FlFinalizada": "",
+        "DataFinalizada": ""
+      }
+    ],
+    "Projeto":[
+      {
+        "IdProjeto": "",
+        "SolicitacaoId": "",
+        "ProjetoId": "",
+        "IdAlunoSolicitacao": "",
+        "IdProfessorSolicitacao": "",
+        "DataInicio": "",
+        "DataFinal": "",
+        "NomeProjeto": "",
+        "Descricao": "",
+        "Justificativa": "",
+        "DataAprovacao": "",
+        "DataReprovacao": ""
+      }
+    ]
+  }
